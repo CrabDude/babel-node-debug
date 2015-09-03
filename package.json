@@ -1,0 +1,29 @@
+{
+  "name": "bode-debug",
+  "version": "1.0.0",
+  "description": "node-debug but with babel-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Adam Crabtree",
+    "email": "dude@noderiety.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crabdude/babel-node-debug.git"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "node-inspector": "^0.12.2"
+  },
+  "bin": {
+    "bode-debug": "./bode-debug.js",
+    "babel-node-debug": "./bode-debug.js"
+  },
+  "bugs": {
+    "url": "https://github.com/crabdude/babel-node-debug/issues"
+  }
+}
