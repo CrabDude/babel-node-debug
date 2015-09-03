@@ -19,3 +19,5 @@ babel-node-debug path/to/file.js
 # Option 2 (alias)
 bode-debug path/to/file.js
 ```
+
+## Happy Debugging :smile:
