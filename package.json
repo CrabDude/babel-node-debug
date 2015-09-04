@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel": "^5.8.23",
-    "node-inspector": "^0.12.2"
+    "node-inspector": "git://github.com/crabdude/node-inspector.git"
   },
   "bin": {
     "bode-debug": "./bin/bode-debug.js",

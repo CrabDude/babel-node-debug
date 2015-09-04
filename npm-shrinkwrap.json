@@ -1,0 +1,56 @@
+{
+  "name": "babel-node-debug",
+  "version": "1.0.4",
+  "dependencies": {
+    "node-inspector": {
+      "version": "git://github.com/crabdude/node-inspector.git",
+      "dependencies": {
+        "async": {
+          "version": "0.9.2"
+        },
+        "biased-opener": {
+          "version": "0.2.6"
+        },
+        "debug": {
+          "version": "2.2.0"
+        },
+        "express": {
+          "version": "4.13.3"
+        },
+        "glob": {
+          "version": "5.0.14"
+        },
+        "path-is-absolute": {
+          "version": "1.0.0"
+        },
+        "rc": {
+          "version": "1.1.1"
+        },
+        "semver": {
+          "version": "4.3.6"
+        },
+        "serve-favicon": {
+          "version": "2.3.0"
+        },
+        "strong-data-uri": {
+          "version": "1.0.1"
+        },
+        "v8-debug": {
+          "version": "0.5.2"
+        },
+        "v8-profiler": {
+          "version": "5.2.12"
+        },
+        "which": {
+          "version": "1.1.1"
+        },
+        "ws": {
+          "version": "0.8.0"
+        },
+        "yargs": {
+          "version": "3.23.0"
+        }
+      }
+    }
+  }
+}
