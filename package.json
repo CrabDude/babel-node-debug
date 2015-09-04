@@ -20,8 +20,8 @@
     "node-inspector": "^0.12.2"
   },
   "bin": {
-    "bode-debug": "./bode-debug.js",
-    "babel-node-debug": "./bode-debug.js"
+    "bode-debug": "./bin/bode-debug.js",
+    "babel-node-debug": "./bin/bode-debug.js"
   },
   "bugs": {
     "url": "https://github.com/crabdude/babel-node-debug/issues"
