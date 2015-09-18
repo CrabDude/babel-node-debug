@@ -1,12 +1,6 @@
 #!/usr/bin/env node
 
-var main = require('node-inspector/bin/node-debug')
+var babelNodePath = require.resolve('babel/bin/babel-node')
+process.argv.splice(2, 0, '--nodejs', babelNodePath)
 
-var createConfig = main.createConfig
-main.createConfig = function() {
-  var config = createConfig.apply(this, arguments)
-  console.log('here')
-  config.execPath = require.resolve('babel/bin/babel-node')
-  return config
-}
-main()
+require('node-inspector/bin/node-debug')()
