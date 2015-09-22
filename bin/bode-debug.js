@@ -11,10 +11,9 @@ require('child_process').fork = function fork() {
   var childProcess = oldFork.apply(this, arguments)
   if (arguments[0].indexOf(nodeDebugDir) === -1) {
     setTimeout(function() {
-      // var script = path.resolve(process.cwd(), config.subproc.script)
       var debug = new Debugger({
-        port: 5858,
-        host: 'localhost'
+        port: config.subproc.debugPort,
+        host: '127.0.0.1'
       })
       debug.send({command: 'continue'}, function() {
         debug.send({
