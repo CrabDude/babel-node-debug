@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var Debugger = require('yadc').Debugger
-var babelNodePath = require.resolve('babel/bin/babel-node')
+var babelNodePath = require.resolve('babel-cli/bin/babel-node')
 var path = require('path')
 var nodeDebugDir = path.dirname(require.resolve('node-inspector/bin/node-debug'))
 process.argv.splice(2, 0, '--nodejs', babelNodePath)
