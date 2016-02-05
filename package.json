@@ -16,7 +16,8 @@
     "url": "git+https://github.com/crabdude/babel-node-debug.git"
   },
   "dependencies": {
-    "babel-cli": "^6.4.0",
+    "babel-cli": "^6.4.5",
+    "bluebird": "^3.2.1",
     "node-inspector": "^0.12.3",
     "yadc": "0.0.1"
   },
