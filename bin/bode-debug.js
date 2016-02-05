@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var BabelDebugger = require('../lib/BabelDebugger')
+var Debugger = require('../lib/Debugger')
 var babelNodePath = require.resolve('babel-cli/bin/babel-node')
 var path = require('path')
 var child_process = require('child_process')
@@ -26,7 +26,7 @@ function fork() {
   var childProcess = oldFork.apply(this, arguments)
   if (arguments[0].indexOf(nodeDebugDir) === -1) {
     setTimeout(function() {
-      var debug = new BabelDebugger({
+      var debug = new Debugger({
         port: config.subproc.debugPort,
         host: '127.0.0.1'
       })
