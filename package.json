@@ -1,6 +1,6 @@
 {
   "name": "babel-node-debug",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "node-debug but with babel-node",
   "main": "index.js",
   "scripts": {
