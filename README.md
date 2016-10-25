@@ -1,3 +1,7 @@
+# **NO LONGER SUPPORTED**
+
+*Due to [official V8 DevTools debugging support via the `--inspect` flag](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27#.28zdald4m), supported by `babel-node`.*
+
 # `babel-node-debug`
 
 Use [`node-inspector`](https://github.com/node-inspector/node-inspector)'s [`node-debug`](https://github.com/node-inspector/node-inspector#start) command with [`babel-node`](https://babeljs.io/docs/usage/cli/#babel-node)!
