@@ -27,5 +27,6 @@
   },
   "bugs": {
     "url": "https://github.com/crabdude/babel-node-debug/issues"
-  }
+  },
+  "engines" : { "node" : "<7.0" }
 }
